@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
-  // mode: 'jit', // --> in version 3.x.x we have to no longer indicate to use Just-in-Time engine.
+  mode: 'jit',
   theme: {
     extend: {
       colors: {
