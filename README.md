@@ -1,9 +1,8 @@
-# React + Vite
+# Modern bank web [WIP]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project consisted of developing a responsive React JS application, by implementing a stunning hero section, high-quality assets and gradients, business stats, reusable features sections with call-to-actions buttons, testimonials and more.
 
-Currently, two official plugins are available:
+Used technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# react_bank_modern_app
+- JavaScript.
+- Tailwind.
