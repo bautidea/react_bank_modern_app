@@ -16,7 +16,7 @@ const Navbar = () => {
           <li
             key={NavOpt.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              index == NavOpt.length - 1 ? 'mr-0' : 'mr-10'
+              index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white`}
           >
             <a href={`#${NavOpt.id}`}>{NavOpt.title}</a>
@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
 
       {/* For narrower devices we should display the menu icon */}
-      <div>
+      <div className={'sm:hidden flex flex-1 justify-end items-center'}>
         <img
           src={isOpen ? close : menu}
           alt="menu"
@@ -37,7 +37,20 @@ const Navbar = () => {
           className={`${
             isOpen ? 'flex' : 'hidden'
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
-        ></div>
+        >
+          <ul className="list-none flex flex-col justify-end items-center flex-1 mr-0">
+            {navLinks.map((NavOpt, index) => (
+              <li
+                key={NavOpt.id}
+                className={`font-poppins font-normal cursor-pointer text-[16px] ${
+                  index === navLinks.length - 1 ? 'mb-0' : 'mb-4'
+                } text-white`}
+              >
+                <a href={`#${NavOpt.id}`}>{NavOpt.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </nav>
   );
