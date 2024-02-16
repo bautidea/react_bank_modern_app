@@ -148,3 +148,10 @@
   color: #a6edf8;
   transition: color 0.3s ease;
 }
+
+.line {
+  width: 1.7px;
+  background-color: white;
+  height: 20%;
+  opacity: 60%;
+}
