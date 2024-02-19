@@ -155,3 +155,8 @@
   height: 20%;
   opacity: 60%;
 }
+
+.button-hover:hover {
+  opacity: 80%;
+  transition: opacity 0.3s;
+}
