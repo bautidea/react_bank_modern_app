@@ -160,3 +160,7 @@
   opacity: 80%;
   transition: opacity 0.3s;
 }
+
+.client-hover:hover {
+  filter: contrast(0%);
+}
