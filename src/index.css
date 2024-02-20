@@ -144,11 +144,6 @@
   transition: transform 0.3s ease;
 }
 
-.nav-item-hover:hover {
-  color: #a6edf8;
-  transition: color 0.3s ease;
-}
-
 .line {
   width: 1.7px;
   background-color: white;
